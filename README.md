@@ -27,3 +27,13 @@ import date from './utils/date'
 let fmtDate = date.dateFormat(1556369425181, 'MM:hh YYYY')
 console.log(fmtDate)
 ```
+
+数字千位分割
+
+```js
+import thousandNumSplit from './utils/thousandNumSplit'
+
+let num = 100000
+let result = thousandNumSplit(num)
+console.log(result) // 100,000
+```
